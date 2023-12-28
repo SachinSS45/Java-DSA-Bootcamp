@@ -1,0 +1,23 @@
+package com.sachin;
+
+public class Pattern8 {
+	/*
+	 *  a b c d e
+	 *  a b c d e
+	 *  a b c d e
+	 *  a b c d e
+	 *  a b c d e
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int row = 1; row <=5;row++) {
+			char ch = 'a';
+			for(int col = 1;col <= 5;col++) {
+				System.out.print(ch + " ");
+				ch++;
+			}
+			System.out.println();
+		}
+	}
+
+}

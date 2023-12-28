@@ -1,0 +1,14 @@
+package com.sachin;
+
+public class Shadowing {
+	static int x;
+	static void fun() {
+		int x = 40;
+		System.out.println(x);
+	}
+	public static void main(String[] args) {
+		System.out.println(x);
+		fun();
+	}
+
+}
